@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Minecraft;
+  src: url('minecraft_font.woff');
+}
+
+header {
+  background-color: #b12121;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  flex-direction: column;
+}
+
+header h1 {
+  font-family: Minecraft;
+  color: #fff;
+  font-size: 30px;
+  margin: 5px;
+}
+
+#logo {
+  height: 60px;
+  margin: 5px;
+}
+
+.server-ip {
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.server-ip:hover {
+  background-color: #fff;
+  color: #b12121;
+  transition: 0.3s;
+}
+
+#question {
+  background-color: #b12121;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  font-family: Minecraft;
+  color: #fff;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button-yes {
+  border: 3px solid #43b121;
+  color: #43b121;
+}
+
+.options {
+  margin: 18px;
+  text-align: center;
+}
+
+.number {
+  font-family: Minecraft;
+  font-size: 25px;
+  color: #b12121;
+}
+
+#instructions {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
