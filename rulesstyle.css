@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Minecraft;
+    src: url('https://hillcraft-server.github.io/minecraft_font.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.h1 {
+    color: #fff;
+    font-family: Minecraft, sans-serif;
+    font-size: 35px;
+}
+
+#heading {
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b12122;
+}
+
+#heading img {
+    height: 60px;
+    margin: 15px;
+    image-rendering: pixelated;
+}
+
+.rules {
+    font-family: sans-serif;
+    margin: 25px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    display: list-item;
+}
+
+.subrule ul {
+    margin-left: 30px;
+}
+
+.subrule {
+    margin-left: 10px;
+}
+
+.rules li div {
+    margin-top: 10px;
+}
